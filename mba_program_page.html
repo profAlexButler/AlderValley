@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Master of Business Administration | School of Business | Alder Valley University</title>
+<style>
+  :root { --green: #0f4d3c; --green-dark: #0b3a2d; --gold: #c9a227; --gold-dark: #a8861b; --ink: #2b2f33; --mute: #5e666d; --line: #e2e5e8; --tint: #f4f6f5; }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif; font-size: 16px; line-height: 1.6; color: var(--ink); background: #fff; }
+  a { color: var(--green); }
+  h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; font-weight: normal; color: var(--green-dark); line-height: 1.25; margin: 0; }
+  h2 { font-size: 32px; margin-bottom: 14px; }
+  h3 { font-size: 20px; margin-bottom: 8px; }
+  p { margin: 0 0 14px; }
+  .wrap { max-width: 1140px; margin: 0 auto; padding: 0 24px; }
+  section { padding: 64px 0; }
+  section.tint { background: var(--tint); }
+  .lede { font-size: 18px; color: var(--mute); max-width: 760px; }
+
+  .utility { background: var(--green-dark); font-size: 13px; }
+  .utility .wrap { display: flex; justify-content: flex-end; gap: 22px; padding-top: 7px; padding-bottom: 7px; }
+  .utility a { color: #d7e3de; text-decoration: none; }
+  header.site { background: #fff; border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 10; }
+  header.site .wrap { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-top: 12px; padding-bottom: 12px; flex-wrap: wrap; }
+  .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+  .brand svg { width: 44px; height: 44px; flex: none; }
+  .brand b { display: block; font-family: Georgia, serif; font-weight: normal; font-size: 21px; color: var(--green-dark); line-height: 1.15; }
+  .brand span { font-size: 13px; color: var(--mute); }
+  nav.main { display: flex; align-items: center; gap: 22px; flex-wrap: wrap; font-size: 15px; }
+  nav.main a { color: var(--ink); text-decoration: none; }
+  nav.main a:hover { color: var(--green); }
+  .btn { display: inline-block; padding: 11px 24px; border-radius: 3px; font-weight: 600; font-size: 15px; text-decoration: none; border: 2px solid transparent; cursor: pointer; font-family: inherit; }
+  .btn-gold { background: var(--gold); color: #1d1a0c; }
+  .btn-gold:hover { background: var(--gold-dark); color: #fff; }
+  .btn-line { border-color: #fff; color: #fff; }
+  .btn-line:hover { background: #fff; color: var(--green-dark); }
+  .btn-green, nav.main a.btn-green { background: var(--green); color: #fff; }
+  nav.main a.btn-green:hover { background: var(--green-dark); color: #fff; }
+  .stat b, .three b, .ranks b { font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif !important; font-weight: 300 !important; }
+
+  .crumbs { font-size: 13px; color: var(--mute); padding: 10px 0; background: var(--tint); }
+  .crumbs a { color: var(--mute); }
+
+  .hero { position: relative; background: linear-gradient(115deg, var(--green-dark) 0%, var(--green) 62%, #2d7a61 100%); color: #fff; overflow: hidden; padding: 72px 0 118px; }
+  .hero svg.scene { position: absolute; right: 0; bottom: 0; width: 58%; min-width: 560px; height: auto; opacity: .9; }
+  .hero .text { position: relative; max-width: 590px; }
+  .hero .eyebrow { text-transform: uppercase; letter-spacing: 2px; font-size: 13px; color: #e8d68e; margin-bottom: 12px; }
+  .hero h1 { font-size: 46px; color: #fff; margin-bottom: 18px; }
+  .hero p { font-size: 18px; color: #e6efeb; margin-bottom: 26px; }
+  .hero .btn { margin: 0 10px 10px 0; }
+
+  .stats { position: relative; margin-top: -62px; }
+  .stats .grid { display: grid; grid-template-columns: repeat(4, 1fr); background: #fff; border-radius: 4px; box-shadow: 0 8px 26px rgba(0,0,0,.13); }
+  .stat { padding: 24px 22px; border-left: 1px solid var(--line); }
+  .stat:first-child { border-left: 0; }
+  .stat b { display: block; font-family: Georgia, serif; font-weight: normal; font-size: 38px; color: var(--green); line-height: 1.1; }
+  .stat span { font-size: 14px; color: var(--mute); }
+
+  .two { display: grid; grid-template-columns: 3fr 2fr; gap: 48px; align-items: start; }
+  .card { background: #fff; border: 1px solid var(--line); border-radius: 4px; padding: 26px; }
+  .glance { border-top: 4px solid var(--gold); }
+  .glance dl { margin: 0; font-size: 15px; }
+  .glance dt { font-weight: 600; margin-top: 12px; }
+  .glance dt:first-child { margin-top: 0; }
+  .glance dd { margin: 0; color: var(--mute); }
+
+  .four { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; margin-top: 30px; }
+  .four svg { width: 40px; height: 40px; fill: var(--green); margin-bottom: 12px; display: block; }
+  .four p { font-size: 15px; color: var(--mute); margin: 0; }
+
+  .core { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 26px; list-style: none; padding: 0; margin: 18px 0 0; font-size: 15px; }
+  .core li { padding-left: 20px; position: relative; }
+  .core li::before { content: ""; position: absolute; left: 0; top: 9px; width: 9px; height: 9px; background: var(--gold); border-radius: 50%; }
+  .credits { width: 100%; border-collapse: collapse; font-size: 15px; margin-bottom: 14px; }
+  .credits td { padding: 9px 0; border-bottom: 1px solid var(--line); }
+  .credits td:last-child { text-align: right; font-weight: 600; }
+  .credits tr:last-child td { border-bottom: 0; font-weight: 700; color: var(--green-dark); }
+  .small { font-size: 14px; color: var(--mute); }
+
+  .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 26px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+  .tags span { background: var(--tint); border: 1px solid var(--line); border-radius: 12px; font-size: 13px; padding: 2px 11px; color: var(--mute); }
+  .band { display: block; height: 8px; background: linear-gradient(90deg, var(--green), #2d7a61); margin: -26px -26px 20px; border-radius: 4px 4px 0 0; }
+
+  .careers { background: var(--green-dark); color: #fff; }
+  .careers h2 { color: #fff; }
+  .careers .lede { color: #cfe0d9; }
+  .three { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin: 30px 0 26px; }
+  .three b { display: block; font-family: Georgia, serif; font-weight: normal; font-size: 42px; color: #e8d68e; line-height: 1.1; }
+  .three span { font-size: 15px; color: #cfe0d9; }
+  .employers { border-top: 1px solid rgba(255,255,255,.2); padding-top: 18px; font-size: 15px; color: #e6efeb; }
+  .employers b { display: block; font-size: 13px; letter-spacing: 1.5px; text-transform: uppercase; color: #e8d68e; font-weight: 600; margin-bottom: 6px; }
+
+  .ranks { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-top: 24px; }
+  .ranks .card { text-align: center; padding: 20px 14px; }
+  .ranks b { display: block; font-family: Georgia, serif; font-weight: normal; font-size: 30px; color: var(--green); }
+  .ranks span { font-size: 14px; color: var(--mute); }
+
+  details { border-bottom: 1px solid var(--line); padding: 14px 0; }
+  summary { cursor: pointer; font-weight: 600; font-size: 17px; color: var(--green-dark); }
+  details p { margin: 10px 0 0; color: var(--mute); }
+
+  form.info { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  form.info label { font-size: 14px; font-weight: 600; display: block; }
+  form.info input, form.info select { width: 100%; padding: 10px; margin-top: 4px; border: 1px solid #c4cacf; border-radius: 3px; font: inherit; font-weight: 400; background: #fff; }
+  form.info .full { grid-column: 1 / -1; }
+
+  footer.site { background: #15201c; color: #b9c6c1; font-size: 14px; padding: 44px 0 24px; }
+  footer.site .cols { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 30px; }
+  footer.site b { display: block; color: #fff; margin-bottom: 8px; }
+  footer.site a { color: #b9c6c1; text-decoration: none; display: block; margin-bottom: 4px; }
+  footer.site .legal { border-top: 1px solid #2c3a35; margin-top: 30px; padding-top: 16px; font-size: 13px; }
+
+  @media (max-width: 900px) {
+    .two, .pair, form.info { grid-template-columns: 1fr; }
+    .four, .ranks { grid-template-columns: 1fr 1fr; }
+    .stats .grid { grid-template-columns: 1fr 1fr; }
+    .stat:nth-child(3) { border-left: 0; }
+    .three { grid-template-columns: 1fr; }
+    .core { grid-template-columns: 1fr; }
+    footer.site .cols { grid-template-columns: 1fr 1fr; }
+    .hero h1 { font-size: 36px; }
+    .hero svg.scene { display: none; }
+    header.site { position: static; }
+  }
+</style>
+</head>
+<body>
+
+<div class="utility"><div class="wrap">
+  <a href="#">Current Students</a><a href="#">Faculty &amp; Staff</a><a href="#">Alumni</a><a href="#">Give</a>
+</div></div>
+
+<header class="site"><div class="wrap">
+  <a class="brand" href="#">
+    <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 2 44 8v16c0 11-8.500 18.500-20 22C12.500 42.500 4 35 4 24V8z" fill="#0f4d3c"/><path d="M24 11c7 5 9 11 7 17-1.300 3.700-4 6-7 7.500V40h-2v-4.500c-3-1.500-5.700-3.800-7-7.500-2-6 2-12 9-17z" fill="#c9a227"/></svg>
+    <div><b>Alder Valley University</b><span>School of Business</span></div>
+  </a>
+  <nav class="main">
+    <a href="#program">Program</a><a href="#curriculum">Curriculum</a><a href="#pathways">Pathways</a><a href="#careers">Careers</a><a href="#faq">FAQ</a>
+    <a class="btn btn-green" href="#info">Request Info</a>
+  </nav>
+</div></header>
+
+<section class="hero">
+  <svg class="scene" viewBox="0 0 700 360" aria-hidden="true">
+    <circle cx="560" cy="86" r="44" fill="#e8d68e" opacity=".55"/>
+    <path d="M0 300C120 240 220 262 340 236s240-52 360-10v134H0z" fill="#ffffff" opacity=".08"/>
+    <g fill="#0b3a2d" opacity=".78">
+      <rect x="250" y="168" width="290" height="132"/>
+      <rect x="372" y="84" width="46" height="110"/>
+      <path d="M372 84 395 48l23 36z"/>
+      <path d="M232 170 395 118l163 52z"/>
+      <rect x="150" y="214" width="100" height="86"/>
+      <rect x="540" y="214" width="100" height="86"/>
+    </g>
+    <circle cx="395" cy="112" r="11" fill="#e8d68e"/>
+    <g fill="#e8d68e" opacity=".55">
+      <rect x="276" y="190" width="18" height="30"/><rect x="314" y="190" width="18" height="30"/><rect x="352" y="190" width="18" height="30"/><rect x="420" y="190" width="18" height="30"/><rect x="458" y="190" width="18" height="30"/><rect x="496" y="190" width="18" height="30"/>
+      <rect x="276" y="240" width="18" height="30"/><rect x="314" y="240" width="18" height="30"/><rect x="458" y="240" width="18" height="30"/><rect x="496" y="240" width="18" height="30"/>
+      <rect x="172" y="234" width="16" height="24"/><rect x="208" y="234" width="16" height="24"/><rect x="562" y="234" width="16" height="24"/><rect x="598" y="234" width="16" height="24"/>
+    </g>
+    <rect x="372" y="244" width="46" height="56" fill="#123f32"/>
+    <g fill="#2d7a61"><circle cx="96" cy="250" r="42"/><circle cx="60" cy="272" r="28"/><circle cx="668" cy="244" r="46"/></g>
+    <g fill="#0b3a2d"><rect x="92" y="280" width="8" height="30"/><rect x="664" y="280" width="8" height="30"/></g>
+    <path d="M0 322c180-30 320-22 700-6v44H0z" fill="#0b3a2d" opacity=".65"/>
+  </svg>
+  <div class="wrap"><div class="text">
+    <div class="eyebrow">Master of Business Administration</div>
+    <h1>Lead With Confidence in a Changing Business World</h1>
+    <p>The Alder Valley MBA combines a strong foundation in business with the technology, analytics, and innovation skills today's organizations are looking for.</p>
+    <a class="btn btn-gold" href="#info">Request Information</a>
+    <a class="btn btn-line" href="#curriculum">Explore the Curriculum</a>
+  </div></div>
+</section>
+
+<div class="stats"><div class="wrap"><div class="grid">
+  <div class="stat"><b>48</b><span>credit hours across 16 courses</span></div>
+  <div class="stat"><b>3</b><span>terms a year with core courses on offer</span></div>
+  <div class="stat"><b>20+</b><span>+1 MBA partner schools in the region</span></div>
+  <div class="stat"><b>14</b><span>M.S. to MBA degree pathways</span></div>
+</div></div></div>
+
+<section id="program"><div class="wrap two">
+  <div>
+    <h2>A Well-Rounded Business Education</h2>
+    <p class="lede">Our MBA prepares you to think critically, lead teams, and make sound decisions in a global business environment.</p>
+    <p>Whether you are completing your bachelor's degree, finishing a master's in a technical field, or looking to advance in your current career, the Alder Valley MBA can help you reach your goals. Our accredited program brings together experienced faculty, a supportive community, and students from a wide range of undergraduate backgrounds and co-op experiences.</p>
+    <p>Eleven core courses build your foundation in accounting, finance, operations, marketing, analytics, strategy, and leadership. Five electives let you go further in the areas that matter most to you, including STEM courses from across the university.</p>
+  </div>
+  <aside class="card glance">
+    <h3>Program at a Glance</h3>
+    <dl>
+      <dt>Credits</dt><dd>48 (11 core courses, 5 electives)</dd>
+      <dt>Waivers</dt><dd>Up to 18 credits (6 courses) with qualifying undergraduate coursework</dd>
+      <dt>Format</dt><dd>Core courses live on campus, and each at least once a year online</dd>
+      <dt>Schedule</dt><dd>Core courses offered Fall, Spring, and Summer</dd>
+      <dt>Accreditation</dt><dd>AACSB International</dd>
+    </dl>
+  </aside>
+</div></section>
+
+<section class="tint"><div class="wrap">
+  <h2>Why Alder Valley?</h2>
+  <div class="four">
+    <div class="card">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 18c1.100 0 2-.9 2-2V6c0-1.100-.9-2-2-2H4c-1.100 0-2 .9-2 2v10c0 1.100.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z"/></svg>
+      <h3>Business and Technology</h3>
+      <p>STEM electives from any STEM program at the university put technology alongside your business core.</p>
+    </div>
+    <div class="card">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.100 0-2 .9-2 2v14c0 1.100.9 2 2 2h14c1.100 0 2-.9 2-2V6c0-1.100-.9-2-2-2zm0 16H5V9h14v11z"/></svg>
+      <h3>Flexible Scheduling</h3>
+      <p>Core courses run every Fall, Spring, and Summer, on campus and at least once a year online.</p>
+    </div>
+    <div class="card">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 1 9l11 6 9-4.900V17h2V9L12 3zM5 13.200v4L12 21l7-3.800v-4L12 17l-7-3.800z"/></svg>
+      <h3>Pathways for Every Student</h3>
+      <p>The +1 MBA and M.S. to MBA pathways give you a seamless route from your current degree.</p>
+    </div>
+    <div class="card">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-1 17.900A8 8 0 0 1 4 12c0-.6.1-1.200.2-1.800L9 15v1c0 1.100.9 2 2 2v1.900zm6.900-2.500c-.3-.8-1-1.400-1.900-1.400h-1v-3c0-.6-.4-1-1-1H8v-2h2c.6 0 1-.4 1-1V7h2c1.100 0 2-.9 2-2v-.4a8 8 0 0 1 2.900 12.800z"/></svg>
+      <h3>Beyond the Classroom</h3>
+      <p>Attend a national recruiting conference or study health care systems abroad with school support.</p>
+    </div>
+  </div>
+</div></section>
+
+<section id="curriculum"><div class="wrap two">
+  <div>
+    <h2>Curriculum</h2>
+    <p class="lede">Eleven required courses, taught by faculty who bring research and practice into the classroom.</p>
+    <ul class="core">
+      <li>Accounting for Decision Makers</li>
+      <li>Economics and Decision Modeling</li>
+      <li>Financial Analysis for Managers</li>
+      <li>Operations and Supply Chain Management</li>
+      <li>Introduction to Data Analytics and Business Intelligence</li>
+      <li>Design and Information Systems</li>
+      <li>Marketing Concepts and Commercialization</li>
+      <li>Leading Teams in Organizations</li>
+      <li>Ethical Decision Making and Corporate Social Performance</li>
+      <li>Management of Innovation</li>
+      <li>Competitive Strategy</li>
+    </ul>
+  </div>
+  <aside class="card">
+    <h3>Credit Summary</h3>
+    <table class="credits">
+      <tr><td>Core courses</td><td>33</td></tr>
+      <tr><td>STEM electives</td><td>9</td></tr>
+      <tr><td>Open graduate electives</td><td>6</td></tr>
+      <tr><td>Total</td><td>48</td></tr>
+    </table>
+    <p class="small">STEM electives include Business Analytics and Artificial Intelligence, Project Management, International Finance, Digital Transformation in Service Innovation, Lean Six Sigma Fundamentals, Entrepreneurship, Data Mining in the Service Sector, Artificial Intelligence, Cybersecurity, and many others.</p>
+  </aside>
+</div></section>
+
+<section class="tint" id="pathways"><div class="wrap">
+  <h2>Pathways Into the MBA</h2>
+  <div class="pair">
+    <div class="card">
+      <h3>+1 MBA</h3>
+      <p>Stay on after your bachelor's degree and complete your MBA right away. We have +1 agreements with more than 20 partner schools in the region, and scholarships are available to +1 MBA students. Most of our recent classes are +1 students, bringing a wide variety of undergraduate degrees and co-op experience into the program.</p>
+      <a href="#info">Learn about the +1 MBA</a>
+    </div>
+    <div class="card">
+      <h3>M.S. to MBA</h3>
+      <p>Complete an MBA in one year after your master's degree. Five of your M.S. courses fulfill the MBA electives, the application is shorter, merit scholarships continue at the same level, and you are assigned a dedicated MBA advisor.</p>
+      <div class="tags">
+        <span>Artificial Intelligence</span><span>Cybersecurity</span><span>Data Science</span><span>Engineering Management</span><span>Environmental Health and Safety</span><span>Industrial and Systems Engineering</span><span>Packaging Science</span><span>Software Engineering</span><span>Sustainable Systems</span><span>Accounting and Analytics</span><span>Business Analytics and A.I.</span><span>Finance</span><span>Global Supply Chain Management</span><span>Hospitality Business Management</span>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Beyond the Classroom</h2>
+  <div class="pair">
+    <div class="card">
+      <span class="band"></span>
+      <h3>National Black MBA Association Conference</h3>
+      <p>MBA students travel to this major networking and recruiting event, with about 10,000 participants and more than 300 companies. The school provides scholarship support for conference fees, travel, and lodging.</p>
+    </div>
+    <div class="card">
+      <span class="band"></span>
+      <h3>Health Systems in Sweden and Denmark</h3>
+      <p>This course compares health care models across countries, with a week of work in Sweden over spring break and a stop in Copenhagen. Students also apply design thinking on projects with regional health care organizations.</p>
+    </div>
+  </div>
+</div></section>
+
+<section class="careers" id="careers"><div class="wrap">
+  <h2>Where Our Graduates Go</h2>
+  <p class="lede">Recent graduates work at organizations of every size, across a wide range of industries.</p>
+  <div class="three">
+    <div><b>83%</b><span>of responding graduates reporting a positive outcome (163 of 196, 2024-2026)</span></div>
+    <div><b>$77,300</b><span>median reported salary (52 salaries reported)</span></div>
+    <div><b>99</b><span>employers among responding graduates</span></div>
+  </div>
+  <div class="employers"><b>Employers include</b>BlackRock &middot; Capital One &middot; Corning &middot; Deloitte &middot; Disney &middot; EY &middot; General Motors &middot; IBM &middot; JP Morgan Chase &middot; Microsoft &middot; Samsung &middot; Tesla</div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Recognized for Excellence</h2>
+  <div class="ranks">
+    <div class="card"><b>#73</b><span>Bloomberg Businessweek (2025)</span></div>
+    <div class="card"><b>#68</b><span>Fortune Best MBA Programs (2026)</span></div>
+    <div class="card"><b>#52</b><span>Eduniversal Best Full-Time MBA (2026)</span></div>
+    <div class="card"><b>Tier One</b><span>CEO Magazine Global MBA Rankings</span></div>
+  </div>
+</div></section>
+
+<section class="tint" id="faq"><div class="wrap">
+  <h2>Frequently Asked Questions</h2>
+  <details><summary>Can I waive any courses?</summary><p>Students may have up to 18 credits (6 courses) waived if they have completed appropriate undergraduate courses with grades of B or better.</p></details>
+  <details><summary>When and where are courses offered?</summary><p>The 11 core courses are offered in the Fall, Spring, and Summer. All core courses are offered live on campus, as well as at least once per year online.</p></details>
+  <details><summary>Do you support international students?</summary><p>Yes. We work closely with the International Student Services office to facilitate practical training opportunities.</p></details>
+  <details><summary>What does the program cost?</summary><p>Please contact Graduate Admissions for current tuition and financial aid information.</p></details>
+</div></section>
+
+<section id="info"><div class="wrap two">
+  <div>
+    <h2>Take the Next Step</h2>
+    <p class="lede">Tell us a little about yourself and a member of our Graduate Admissions team will be in touch.</p>
+    <p class="small">Graduate Admissions: (555) 010-0142 | mba@aldervalley.example</p>
+  </div>
+  <form class="info card" onsubmit="return false;">
+    <label>First Name<input></label>
+    <label>Last Name<input></label>
+    <label>Email<input></label>
+    <label>Phone<input></label>
+    <label>I am interested in<select><option>Select one</option><option>Traditional MBA</option><option>+1 MBA</option><option>M.S. to MBA</option></select></label>
+    <label>Intended start term<select><option>Select one</option><option>Fall</option><option>Spring</option><option>Summer</option></select></label>
+    <div class="full"><button type="submit" class="btn btn-green">Request Information</button></div>
+  </form>
+</div></section>
+
+<footer class="site"><div class="wrap">
+  <div class="cols">
+    <div><b>Alder Valley University School of Business</b>1 University Drive, Alder Valley<br>(555) 010-0100</div>
+    <div><b>Programs</b><a href="#">Undergraduate</a><a href="#">Graduate</a><a href="#">Executive Education</a></div>
+    <div><b>Admissions</b><a href="#">Apply Now</a><a href="#">Tuition &amp; Aid</a><a href="#">Visit Campus</a></div>
+    <div><b>Connect</b><a href="#">News</a><a href="#">Events</a><a href="#">Contact Us</a></div>
+  </div>
+  <div class="legal">&copy; Alder Valley University. All rights reserved. | <a href="#" style="display:inline">Privacy</a></div>
+</div></footer>
+
+</body>
+</html>
